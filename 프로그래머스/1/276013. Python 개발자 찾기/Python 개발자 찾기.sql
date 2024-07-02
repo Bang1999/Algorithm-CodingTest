@@ -1,0 +1,9 @@
+-- 코드를 작성해주세요
+SELECT 
+       A.ID
+     , A.EMAIL
+     , A.FIRST_NAME
+     , A.LAST_NAME
+  FROM DEVELOPER_INFOS AS A
+ WHERE 'Python' IN (A.SKILL_1, A.SKILL_2, A.SKILL_3)
+ ORDER BY A.ID;
