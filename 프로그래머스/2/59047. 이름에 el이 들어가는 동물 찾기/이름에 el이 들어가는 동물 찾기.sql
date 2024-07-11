@@ -1,0 +1,8 @@
+-- 코드를 입력하세요
+SELECT
+       A.ANIMAL_ID
+     , A.NAME
+  FROM ANIMAL_INS AS A
+ WHERE (A.NAME LIKE 'El%' OR A.NAME LIKE '%el%')
+   AND A.ANIMAL_TYPE = 'Dog'
+ ORDER BY A.NAME;
